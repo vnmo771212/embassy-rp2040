@@ -64,6 +64,14 @@ cyw43 = { version = "0.3", features = ["defmt", "firmware-logs"] }
 cyw43-pio = { version = "0.4.0", features = ["defmt"] }
 static_cell = { version = "2" }
 
+rp-pico = "0.9.0"
+embedded-hal = "1.0.0"
+fugit = "0.3.7"
+display-interface = "0.4"
+
+display-interface-spi = "0.4"
+mipidsi = "0.7.1"
+embedded-graphics = "0.8.1"
 # cargo build/run
 [profile.dev]
 codegen-units = 1
